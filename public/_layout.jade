@@ -1,0 +1,33 @@
+!!!5
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title CSS Brigade Vancouver
+    meta(name="description", content="The Vancouver CSS monthly Meetup. Come learn and catch up with the latest developments and tools for CSS.")
+    meta(name="viewport", content="width=device-width")
+    link(rel="shortcut icon", type="image/x-icon", href="/img/favicon.ico")
+    link(type="text/css", rel="stylesheet", href="/css/main.css")
+  body
+    .wrapper
+      .container
+        .branding
+          a.logo(href="/")
+            span.logo-bracket {
+            span.logo-prop css
+            span.logo-col :
+            span.logo-value brigade
+            span.logo-semicol;
+            span.logo-bracket }
+        .content
+          != yield
+        .footer
+          a(href="/past-events") Past events
+          |  &middot;  
+          a(href="http://www.meetup.com/css-brigade-vancouver") Join us on Meetup.com
+          |  &middot;  
+          a(href="https://twitter.com/CSSBrigade") Twitter
+          |  &middot;  
+          a(href="/call-for-speakers") Speaker Submission
+          br
+          small Hosted by the <a href="https://harp.io">Harp Platform</a>
+    include _partials/analytics.html

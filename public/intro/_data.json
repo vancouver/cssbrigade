@@ -1,0 +1,27 @@
+{
+  "2": {
+    "title": "CSS Element Queries & Topcoat",
+    "description": "CSS Brigade #3: CSS Element Queries & Topcoat",
+    "theme": "sky"
+  },
+  "3": {
+    "title": "CSS Brigade #3",
+    "description": "CSS Brigade #3: Understanding CSS Pre-processors & Choosing a CSS Framework",
+    "theme": "sky"
+  },
+  "4": {
+    "title": "CSS Brigade #4",
+    "description": "CSS Brigade #4: Visual Formatting Model & Pseudo-Classes/Elem­ents",
+    "theme": "beige"
+  },
+  "5": {
+    "title": "CSS Brigade #5",
+    "description": "CSS Brigade #5: Z-index: Layer the DOM to your will & CSS Selectors",
+    "theme": "beige"
+  },
+  "6": {
+    "title": "CSS Brigade #6",
+    "description": "CSS Brigade #6: Restructuring CSS mid project & The evolution of layout",
+    "theme": "beige"
+  }
+}

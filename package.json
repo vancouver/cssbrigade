@@ -1,0 +1,30 @@
+{
+  "name": "cssbrigade",
+  "version": "0.1.0",
+  "description": "Vancouver’s CSS meetup.",
+  "homepage": "http://cssbrigade.com",
+  "repository": "git@github.com:vancouver/cssbrigade.com.git",
+  "contributors": [
+    "Jorge Pedret    <jorgepedret@gmail.com>",
+    "Ryan Frederick  <ryan@ryanfrederick.com>",
+    "Kenneth Ormandy <hello@kennethormandy.com>"
+  ],
+  "private": true,
+  "keywords": [
+    "type",
+    "typography",
+    "fonts",
+    "design",
+    "meetup"
+  ],
+  "scripts": {
+    "test":    "echo \"Error: no test specified…yet! Pull requests on vancouver/cssbrigade.com are greatly appriciated.\" && exit 1",
+    "start":   "harp server",
+    "compile": "harp compile",
+    "deploy":  "npm run compile && surge ./www --domain cssbrigade.com"
+  },
+  "devDependencies": {
+    "harp":  "^0.14.0",
+    "surge": "^0.5.2"
+  }
+}
