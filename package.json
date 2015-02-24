@@ -21,8 +21,8 @@
     "test":    "echo \"Error: no test specified…yet! Pull requests on vancouver/cssbrigade.com are greatly appriciated.\" && exit 1",
     "start":   "harp server",
     "compile": "harp compile",
-    "stage":   "npm run compile && surge ./www --domain cssbrigade.surge.sh",
-    "deploy":  "npm run compile && surge ./www --domain cssbrigade.com"
+    "stage":   "npm run compile && surge ./www cssbrigade.surge.sh",
+    "deploy":  "npm run compile && surge ./www cssbrigade.com"
   },
   "devDependencies": {
     "harp":  "^0.14.0",
