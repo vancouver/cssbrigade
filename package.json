@@ -18,7 +18,7 @@
     "meetup"
   ],
   "scripts": {
-    "test":    "echo \"Error: no test specified…yet! Pull requests on vancouver/cssbrigade.com are greatly appriciated.\" && exit 1",
+    "test":    "echo \"Error: no test specified…yet! Pull requests on vancouver/cssbrigade.com are greatly appriciated.\"",
     "start":   "harp server",
     "compile": "harp compile",
     "stage":   "npm run compile && surge ./www cssbrigade.surge.sh",
