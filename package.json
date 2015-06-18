@@ -11,10 +11,10 @@
   ],
   "private": true,
   "keywords": [
-    "type",
-    "typography",
-    "fonts",
-    "design",
+    "css",
+    "sass",
+    "scss",
+    "less",
     "meetup"
   ],
   "scripts": {
