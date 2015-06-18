@@ -39,7 +39,12 @@
     "date": "March 11th at 7pm",
     "location": "Hootsuite Headquarters",
     "map": "http://a.tiles.mapbox.com/v3/jorgepedret.map-2hotlmhu.html#16/49.26385/-123.10439000000004",
+    "passed": true
+  },
+  "8": {
+    "date": "July 6 at 7pm",
+    "location": "Hootsuite Headquarters",
+    "map": "http://a.tiles.mapbox.com/v3/jorgepedret.map-2hotlmhu.html#16/49.26385/-123.10439000000004",
     "passed": false
   }
-
 }

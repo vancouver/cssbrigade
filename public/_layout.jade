@@ -7,6 +7,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width")
     link(rel="shortcut icon", type="image/x-icon", href="/img/favicon.ico")
     link(type="text/css", rel="stylesheet", href="/css/main.css")
+
   body
     .wrapper
       .container
@@ -16,18 +17,19 @@ html(lang="en")
             span.logo-prop css
             span.logo-col :
             span.logo-value brigade
-            span.logo-semicol;
+            span.logo-semicol ;
             span.logo-bracket }
         .content
           != yield
         .footer
           a(href="/past-events") Past events
-          |  &middot;  
+          |  &middot;
           a(href="http://www.meetup.com/css-brigade-vancouver") Join us on Meetup.com
-          |  &middot;  
+          |  &middot;
           a(href="https://twitter.com/CSSBrigade") Twitter
-          |  &middot;  
+          |  &middot;
           a(href="/call-for-speakers") Speaker Submission
           br
           small Built with <a href="http://harpjs.com">Harp</a> and served on <a href="https://surge.sh">Surge</a>
+
     include _partials/analytics.html
